@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -10,195 +11,246 @@
 
 <body>
 
+
     <header id="header">
         <div class="container">
-            <div class="nav-bar">
-                
-                <div class="logo">
-                    <div class="logo-icono">B</div>
-                    <span class="logo-texto">Burguer</span>
-                </div>
-
-                
-                <nav class="menu">
-                    <a href="#">Inicio</a>
-                    <a href="#servicios">Pedidos</a>
-                    <a href="#testimonios">Eventos</a>
-                    <a href="#historia">Locales</a>
-                    <a href="#contacto">FAQs</a>
-                </nav>
+            <div class="logo">
+                <div class="logo-icono">B</div>
+                <span class="logo-texto">Burguer</span>
             </div>
+            <nav class="menu">
+                <a href="#">Inicio</a>
+                <a href="#historia">Historia</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#menu">Menú</a>
+                <a href="#galeria">Galería</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
         </div>
     </header>
 
-
     <main>
 
+
         <section id="banner">
-            <div class="banner-contenido">
-                <p class="banner-etiqueta">SABOR QUE SE QUEDA CONTIGO</p>
-                <h1>La hamburguesa que estabas esperando.</h1>
-                <p>Carne a la parrilla, ingredientes frescos y mucho sabor. Ven a disfrutar sin complicaciones.</p>
-                <a href="#contacto" class="boton">HAZ TU PEDIDO</a>
+            <div class="container">
+                <div class="banner-contenido">
+                    <h1>🍔 Burguer</h1>
+                    <p class="banner-etiqueta">SABOR QUE SE QUEDA CONTIGO</p>
+                    <h2>La hamburguesa que estabas esperando.</h2>
+                    <p>Carne a la parrilla, ingredientes frescos y mucho sabor. Ven a disfrutar sin complicaciones.</p>
+                    <br>
+                    <a href="#contacto" class="boton">HAZ TU PEDIDO</a>
+                </div>
             </div>
         </section>
+
+
+        <hr>
+
 
         <section id="historia">
             <div class="container">
-                <div class="historia-flex">
-                    
-                    <div class="historia-texto">
-                        <p class="etiqueta">NUESTRA HISTORIA</p>
-                        <h2>Quiénes somos</h2>
-                        <p>Nacimos entre amigos, una plancha encendida y una idea sencilla: hacer hamburguesas honestas que alegren el día. Seleccionamos cada ingrediente, cocinamos al momento y servimos con la cercanía de siempre.</p>
-                        <a href="#" class="boton boton-oscuro">CONOCE NUESTRA COCINA</a>
-                    </div>
-
-                    
-                    <div class="historia-imagen">
-                       <img src="assets/img/historia-cocina.jpg" alt="Equipo de cocina preparando hamburguesas en la plancha"> </div>
+                <div class="historia-texto">
+                    <p class="etiqueta">NUESTRA HISTORIA</p>
+                    <h3>Quiénes somos</h3>
+                    <p>Nacimos entre amigos, una plancha encendida y una idea sencilla: hacer hamburguesas honestas que alegren el día. Seleccionamos cada ingrediente, cocinamos al momento y servimos con la cercanía de siempre.</p>
+                    <br>
+                    <a href="#" class="boton boton-oscuro">CONOCE NUESTRA COCINA</a>
+                    <br><br>
+                    <img src="assets/img/historia-cocina.jpg" alt="Equipo de cocina" width="100%">
                 </div>
             </div>
         </section>
 
-    </main>
-
-</body>
-</html>
-
-
-<!-- ======================================== -->
-        <!--PAQUETE 2   -->
-<!-- ======================================== -->
-
         <section id="servicios">
             <div class="container">
-                <div class="section-header">
-                    <p class="etiqueta">COMO TÚ QUIERAS</p>
-                    <h2>Nuestros servicios</h2>
-                </div>
+                <h2>Nuestros servicios</h2>
                 <div class="servicios-grid">
-                    
-                    <div class="servicio-card">
-                        <div class="servicio-icon">🛍️</div>
-                        <h3>Para llevar</h3>
+                    <div class="servicio">
+                        <h3>🛍️ Para llevar</h3>
                         <p>Tu favorito, irte cuando tú llegues.</p>
                     </div>
-                    
-                    <div class="servicio-card">
-                        <div class="servicio-icon">🚀</div>
-                        <h3>A domicilio</h3>
+                    <div class="servicio">
+                        <h3>🚀 A domicilio</h3>
                         <p>Sabor recién hecho directo a tu puerta.</p>
                     </div>
-                    
-                    <div class="servicio-card">
-                        <div class="servicio-icon">🎉</div>
-                        <h3>Eventos</h3>
+                    <div class="servicio">
+                        <h3>🎉 Eventos</h3>
                         <p>Menús especiales para celebrar en grande.</p>
                     </div>
-                    
-                    <div class="servicio-card">
-                        <div class="servicio-icon">🍽️</div>
-                        <h3>En el local</h3>
+                    <div class="servicio">
+                        <h3>🍽️ En el local</h3>
                         <p>Buen ambiente, mejor comida y buena música.</p>
                     </div>
                 </div>
             </div>
         </section>
-        
+
         <section id="menu">
             <div class="container">
-                <div class="section-header">
-                    <p class="etiqueta">HECHO AL MOMENTO</p>
-                    <h2>Nuestro menú</h2>
-                </div>
-                <div class="menu-table-container">
-                    <table class="menu-table">
-                        <thead>
-                            <tr>
-                                <th>PLATO</th>
-                                <th>DESCRIPCIÓN</th>
-                                <th>PRECIO</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><strong>La Clásica</strong></td>
-                                <td>Carne 180 g, cheddar, lechuga, tomate y salsa Burguer.</td>
-                                <td><strong> S/ 12,50 </strong></td>
-                            </tr>
-                            <tr>
-                                <td><strong>Doble Fuego</strong></td>
-                                <td>Doble carne, cheddar, jalapeños, cebolla crujiente y salsa picante.</td>
-                                <td><strong> S/ 15,90 </strong></td>
-                            </tr>
-                            <tr>
-                                <td><strong>La Trufada</strong></td>
-                                <td>Carne, provolone, champiñones, rúcula y mayonesa de trufa.</td>
-                                <td><strong> S/ 14,90 </strong></td>
-                            </tr>
-                            <tr>
-                                <td><strong>Veggie Crunch</strong></td>
-                                <td>Medallón vegetal, aguacate, col encurtida y salsa cítrica.</td>
-                                <td><strong> S/ 13,50 </strong></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+                <h2>Nuestro menú</h2>
+                <br>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>PLATO</th>
+                            <th>DESCRIPCIÓN</th>
+                            <th>PRECIO</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>La Clásica</strong></td>
+                            <td>Carne 180 g, cheddar, lechuga, tomate y salsa Burguer.</td>
+                            <td><strong>S/ 12,50</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Doble Fuego</strong></td>
+                            <td>Doble carne, cheddar, jalapeños, cebolla crujiente y salsa picante.</td>
+                            <td><strong>S/ 15,90</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>La Trufada</strong></td>
+                            <td>Carne, provolone, champiñones, rúcula y mayonesa de trufa.</td>
+                            <td><strong>S/ 14,90</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Veggie Crunch</strong></td>
+                            <td>Medallón vegetal, aguacate, col encurtida y salsa cítrica.</td>
+                            <td><strong>S/ 13,50</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </section>
-         <section id="galeria">
+
+        <section id="galeria">
             <div class="container">
-                <div class="section-header">
-                    <p class="etiqueta">RECIÉN SALIDAS</p>
-                    <h2>Mira lo que se cocina</h2>
-                </div>
+                <h2>Mira lo que se cocina</h2>
                 <div class="galeria-grid">
-                    
                     <div class="galeria-item">
                         <img src="assets/img/clasica.jpg" alt="Hamburguesa Clásica">
-                        <div class="galeria-overlay">
-                            <span>La Clásica</span>
-                        </div>
+                        <p>La Clásica</p>
                     </div>
-                   
                     <div class="galeria-item">
-                        <img src="assets/img/doble-fuego.jpg" alt="Hamburguesa Doble Fuego">
-                        <div class="galeria-overlay">
-                            <span>Doble Fuego</span>
-                        </div>
+                        <img src="assets/img/doble-fuego.jpg" alt="Doble Fuego">
+                        <p>Doble Fuego</p>
                     </div>
-                   
                     <div class="galeria-item">
-                        <img src="assets/img/hamburguesa-la-trufada-1.jpg" alt="Hamburguesa Trufada">
-                        <div class="galeria-overlay">
-                            <span>La Trufada</span>
-                        </div>
+                        <img src="assets/img/hamburguesa-la-trufada-1.jpg" alt="La Trufada">
+                        <p>La Trufada</p>
                     </div>
-                    
                     <div class="galeria-item">
                         <img src="assets/img/papas.avif" alt="Papas fritas">
-                        <div class="galeria-overlay">
-                            <span>Papas fritas</span>
-                        </div>
+                        <p>Papas fritas</p>
                     </div>
-                   
                     <div class="galeria-item">
                         <img src="assets/img/bebidas.jpg" alt="Bebidas">
-                        <div class="galeria-overlay">
-                            <span>Bebidas</span>
-                        </div>
+                        <p>Bebidas</p>
                     </div>
-                    
                     <div class="galeria-item">
                         <img src="assets/img/ensalada.jpg" alt="Ensaladas">
-                        <div class="galeria-overlay">
-                            <span>Ensaladas</span>
-                        </div>
+                        <p>Ensaladas</p>
                     </div>
                 </div>
             </div>
         </section>
 
+        <section id="testimonios">
+            <div class="container">
+                <h2>Amor al primer bocado</h2>
+                <br>
+                <div class="testimonio">
+                    <p>"La doble fuego es una locura. Carne jugosa y el picante justo."</p>
+                    <p><strong>- Lucía M.</strong></p>
+                </div>
+                <br>
+                <div class="testimonio">
+                    <p>"El local tiene muy buen rollo y el equipo te hace sentir en casa."</p>
+                    <p><strong>- Diego R.</strong></p>
+                </div>
+            </div>
+        </section>
 
-    
+
+        <section id="contacto">
+            <div class="container">
+                <h2>Contáctanos</h2>
+                <br>
+                <form action="#" method="POST">
+                    <label for="nombre">Nombre:</label>
+                    <br>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                    <br><br>
+                    <label for="email">Correo:</label>
+                    <br>
+                    <input type="email" id="email" name="email" placeholder="tu@correo.com" required>
+                    <br><br>
+                    <label for="telefono">Teléfono:</label>
+                    <br>
+                    <input type="tel" id="telefono" name="telefono" placeholder="900 123 456">
+                    <br><br>
+                    <label for="comida">¿Qué comida prefieres?</label>
+                    <br>
+                    <select id="comida" name="comida">
+                        <option value="clasica">La Clásica</option>
+                        <option value="doble">Doble Fuego</option>
+                        <option value="trufada">La Trufada</option>
+                        <option value="veggie">Veggie Crunch</option>
+                    </select>
+                    <br><br>
+                    <label for="mensaje">Mensaje:</label>
+                    <br>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="¿En qué podemos ayudarte?" required></textarea>
+                    <br><br>
+                    <input type="submit" value="ENVIAR MENSAJE">
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <span class="footer-icono">B</span>
+                        <span>Burguer</span>
+                    </div>
+                    <p>Sabor que se queda contigo</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Enlaces</h4>
+                    <p>
+                        <a href="#">Inicio</a><br>
+                        <a href="#historia">Historia</a><br>
+                        <a href="#servicios">Servicios</a><br>
+                        <a href="#menu">Menú</a><br>
+                        <a href="#contacto">Contacto</a>
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h4>Contacto</h4>
+                    <p>📧 hola@burguer.es</p>
+                    <p>📞 +51 999 123 456</p>
+                    <p>📍 Calle Principal 123, Peru </p>
+                </div>
+                <div class="footer-col">
+                    <h4>Síguenos</h4>
+                    <div class="footer-sociales">
+                        <a href="#">📷</a>
+                        <a href="#">👍</a>
+                        <a href="#">🐦</a>
+                        <a href="#">🎵</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <p>&copy; 2026 Burguer. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
