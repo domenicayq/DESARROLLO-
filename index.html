@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burguer | Las mejores hamburguesas</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div id="inicio"></div>
+
+    <div id="top-bar">
+        <div class="container top-bar-flex">
+            <div class="top-contacto">
+                <a href="mailto:info@burguer.com.pe"><i class="fa-solid fa-envelope"></i> info@burguer.com.pe</a>
+                <a href="tel:+51946857985"><i class="fa-solid fa-phone"></i> +51 946 857 985</a>
+            </div>
+            <div class="top-rs">
+
+                <a target="_blank" rel="noopener" href="https://www.instagram.com/burguer.pe" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a target="_blank" rel="noopener" href="https://www.facebook.com/burguer.pe" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a target="_blank" rel="noopener" href="https://wa.me/51946857985?text=Hola%20Burguer,%20quiero%20hacer%20un%20pedido" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <header id="header">
+        <div class="container header-flex">
+            <a href="index.html" class="logo">
+                <img src="assets/img/logo.png" alt="Logotipo de Burguer" width="48" height="48">
+                <span class="logo-texto">Burguer</span>
+            </a>
+
+ 
+            <button class="nav-menu-toggle" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menú">
+              <i class="fa-solid fa-bars"></i>
+             </button>
+            <nav class="menu" aria-label="Navegación principal">
+                <a href="index.html" aria-current="page">Inicio</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="promociones.html">Promociones</a>
+                <a href="resenas.html">Resenas</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="portada">
+            <video class="portada-video" autoplay muted loop playsinline poster="assets/img/banner-hamburguesa.jpg">
+                <source src="assets/video/hamburguesa.mp4" type="video/mp4">
+            </video>
+            <div class="portada-capa">
+                <div class="portada-texto">
+                    <h1>Las mejores hamburguesas</h1>
+                    <p>Alegría en cada bocado</p>
+                    <a href="#menu" class="boton boton-oscuro">Pide aquí</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="nosotros">
+            <div class="container nosotros-flex">
+                <div class="nosotros-texto">
+                    <h2>Quiénes somos</h2>
+                    <p>Burguer nació con una idea simple: hacer hamburguesas que den alegría en cada bocado. Preparamos cada pedido al momento, con carne fresca, pan horneado y salsas de la casa.</p>
+                    <p>Hoy atendemos en el local, para llevar y a domicilio, siempre con buen ambiente y buena música.</p>
+                </div>
+                <img class="nosotros-img" src="assets/img/historia-cocina.jpg" alt="Equipo de Burguer">
+            </div>
+        </section>
+
+        <section id="servicios">
+            <div class="container">
+                <h2>Nuestros servicios</h2>
+                <div class="servicios-grid">
+                    <div class="servicio">
+                        <h3>Para llevar</h3>
+                        <p>Tu favorito, listo cuando tú llegues.</p>
+                    </div>
+                    <div class="servicio">
+                        <h3>A domicilio</h3>
+                        <p>Sabor recién hecho directo a tu puerta.</p>
+                    </div>
+                    <div class="servicio">
+                        <h3>Eventos</h3>
+                        <p>Menús especiales para celebrar en grande.</p>
+                    </div>
+                    <div class="servicio">
+                        <h3>En el local</h3>
+                        <p>Buen ambiente, mejor comida y buena música.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu">
+            <div class="container">
+                <h2>Nuestro menú</h2>
+                <div class="tabla-contenedor">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Plato</th>
+                                <th>Descripción</th>
+                                <th>Precio</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>La Clásica</strong></td>
+                                <td>Carne 180 g, cheddar, lechuga, tomate y salsa Burguer.</td>
+                                <td><strong>S/ 12,50</strong></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Doble Fuego</strong></td>
+                                <td>Doble carne, cheddar, jalapeños, cebolla crujiente y salsa picante.</td>
+                                <td><strong>S/ 15,90</strong></td>
+                            </tr>
+                            <tr>
+                                <td><strong>La Trufada</strong></td>
+                                <td>Carne, provolone, champiñones, rúcula y mayonesa de trufa.</td>
+                                <td><strong>S/ 14,90</strong></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Veggie Crunch</strong></td>
+                                <td>Medallón vegetal, palta, col encurtida y salsa cítrica.</td>
+                                <td><strong>S/ 13,50</strong></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Papas Burguer</strong></td>
+                                <td>Porción grande de papas crocantes con salsa de la casa.</td>
+                                <td><strong>S/ 7,00</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="promociones">
+            <div class="container">
+                <h2>Promociones del mes</h2>
+                <div class="promocion-flex">
+                    <article>
+                        <h3>Combo Noche de Brujas</h3>
+                        <p>Este mes la Doble Fuego, papas Burguer y una bebida a precio especial. Una promoción pensada para compartir con amigos y familia. Válida en el local, para llevar y a domicilio, hasta agotar stock.</p>
+                        <a href="contacto.html" class="boton">Quiero mi combo</a>
+                    </article>
+                    <article>
+                        <iframe class="video-yt" src="https://www.youtube.com/embed/0G-g0WA09tI?si=uHb8mYaSWYgilNwB" title="Video de YouTube" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria">
+            <div class="container">
+                <h2>Mira lo que se cocina</h2>
+                <div class="galeria-grid">
+                    <div class="galeria-item">
+                        <img src="assets/img/clasica.jpg" alt="Hamburguesa La Clásica">
+                        <p>La Clásica</p>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="assets/img/doble-fuego.jpg" alt="Hamburguesa Doble Fuego">
+                        <p>Doble Fuego</p>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="assets/img/hamburguesa-la-trufada-1.jpg" alt="Hamburguesa La Trufada">
+                        <p>La Trufada</p>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="assets/img/papas.jpg" alt="Porción de papas fritas">
+                        <p>Papas fritas</p>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="assets/img/bebidas.jpg" alt="Bebidas frías">
+                        <p>Bebidas</p>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="assets/img/ensalada.jpg" alt="Ensalada fresca">
+                        <p>Ensaladas</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <div class="container">
+                <h2>Contáctanos</h2>
+                <form action="#" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" maxlength="60" required>
+
+                    <label for="email">Correo:</label>
+                    <input type="email" id="email" name="email" placeholder="tu@correo.com" maxlength="80" required>
+
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="946 857 985" maxlength="15" required>
+
+                    <label for="asunto">Asunto:</label>
+                    <input type="text" id="asunto" name="asunto" placeholder="Motivo de tu mensaje" maxlength="80" required>
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="¿En qué podemos ayudarte?" maxlength="500" required></textarea>
+
+                    <input type="submit" value="Enviar mensaje">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h3>Burguer</h3>
+                    <p>Las mejores hamburguesas</p>
+                </div>
+                <div>
+                    <h3>contacto</h3>
+                    <p><a href="mailto:info@burguer.com.pe">info@burguer.com.pe</a></p>
+                    <p><a href="tel:+51946857985">+51 946 857 985</a></p>
+                </div>
+                <div>
+                    <h3>enlaces</h3>
+                    <p><a href="index.html#menu">Menú</a></p>
+                    <p><a href="promociones.html">Promociones</a></p>
+                    <p><a href="contacto.html">Contacto</a></p>
+                </div>
+                <div>
+                    <h3>siguenos</h3>
+                    <div class="footer-sociales">
+                        <a target="_blank" rel="noopener" href="https://www.instagram.com/burguer.pe" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a target="_blank" rel="noopener" href="https://www.facebook.com/burguer.pe" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                        <a target="_blank" rel="noopener" href="https://wa.me/51946857985?text=Hola%20Burguer" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <p class="footer-copy">&copy; 2026 Burguer
+        </div>
+    </footer>
+
+    <a class="scroll-up" href="#inicio" title="Volver arriba" aria-label="Volver arriba">
+        <i class="fa-solid fa-angle-up"></i>
+    </a>
+</body>
+</html>
+<script src="assets/js/main.js"></script>
